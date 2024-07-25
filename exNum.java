@@ -1,11 +1,11 @@
 public class exNum {
     public static void main(String[] args) {
-        int x,y,z;
+        int x,y,total;
         x = 69;
         y = 99;
-        z = x + y;
+        total = x + y;
         System.out.print("x = " +x+ " ");
         System.out.println("y = " +y);
-        System.out.print("Total = " +z);
+        System.out.print("Total = " +total);
     }
 }
