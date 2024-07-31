@@ -7,10 +7,10 @@ public class ifAct {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Your Score : ");
         score = in.nextInt();
-        if(score > 60)
-            System.out.println("you are pass");
+        if(score >= 60)
+            System.out.println("your score : " +score+ "your result is : pass");
         else{
-            System.out.println("you are not pass");
+            System.out.println("your score : " +score+ "your result is : not pass");
         }
     }
 }
